@@ -87,7 +87,7 @@ namespace ObsSignalR.Controllers
             }
         }
         [HttpPost, ActionName("Delete")]
-        [ValidateAntiForgeryToken]
+     
         public async Task<ActionResult> DeleteConfirmed(int id)
         {
             using (ObsContext db = new ObsContext())
