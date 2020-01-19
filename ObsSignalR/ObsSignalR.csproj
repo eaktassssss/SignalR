@@ -151,6 +151,7 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Helpers\Helper.cs" />
+    <Compile Include="Hubs\MyHub.cs" />
     <Compile Include="Hubs\StudentHub.cs" />
     <Compile Include="Models\Context\ObsContext.Context.cs">
       <AutoGen>True</AutoGen>
