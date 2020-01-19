@@ -56,7 +56,7 @@ namespace ObsSignalR.Controllers
             }
         }
         [HttpPost]
-        [ValidateAntiForgeryToken]
+       
         public async Task<ActionResult> Edit([Bind(Include = "Id,FirstName,LastName,IdentityNumber,PhoneNumber")] Students students)
         {
             using (ObsContext db = new ObsContext())
